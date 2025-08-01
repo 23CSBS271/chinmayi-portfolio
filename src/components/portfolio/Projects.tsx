@@ -116,24 +116,15 @@ const Projects = () => {
                   {/* Action Buttons */}
                   <div className="flex gap-3 pt-4">
                     {project.liveUrl && <Button variant="portfolio" size="sm" asChild>
-                        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                          <ExternalLink className="w-4 h-4 mr-2" />
-                          Live Demo
-                        </a>
+                        
                       </Button>}
                     
                     {project.githubUrl && <Button variant="portfolioOutline" size="sm" asChild>
-                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                          <Github className="w-4 h-4 mr-2" />
-                          Code
-                        </a>
+                        
                       </Button>}
                     
                     {project.figmaUrl && <Button variant="portfolioOutline" size="sm" asChild>
-                        <a href={project.figmaUrl} target="_blank" rel="noopener noreferrer">
-                          <Figma className="w-4 h-4 mr-2" />
-                          Design
-                        </a>
+                        
                       </Button>}
                   </div>
                 </div>

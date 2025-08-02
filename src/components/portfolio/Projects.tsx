@@ -14,14 +14,14 @@ const Projects = () => {
   }, {
     title: "Trip.com Travel App UI",
     description: "Modern travel application interface designed in Figma, focusing on seamless booking experience and vibrant user journeys with emphasis on user flow and aesthetics.",
-    image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?w=600&h=400&fit=crop",
     technologies: ["Figma", "UI/UX Design", "Prototyping"],
     features: ["Modern Interface Design", "Seamless Booking Flow", "Vibrant User Experience", "Mobile-First Approach", "Interactive Prototyping"],
     figmaUrl: "#",
     status: "Completed",
     type: "UI/UX Design"
   }, {
-    title: "Beat the Clock - Event Poster",
+    title: "Beat the Clock - Event Invitation Card",
     description: "Eye-catching event poster design for Ascend Club activities, showcasing creative visual design skills using Canva and Figma with modern typography and engaging graphics.",
     image: "/src/assets/beat-the-clock-poster.png",
     technologies: ["Canva", "Figma", "Graphic Design"],

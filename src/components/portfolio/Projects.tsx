@@ -120,7 +120,7 @@ const Projects = () => {
                     {project.liveUrl && <Button variant="portfolio" size="sm" asChild>
                         <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                          <ExternalLink className="w-4 h-4" />
-                          Live Demo
+                         {project.type === "Graphic Design" ? "View Design" : "Live Demo"}
                         </a>  
                       </Button>}
                     

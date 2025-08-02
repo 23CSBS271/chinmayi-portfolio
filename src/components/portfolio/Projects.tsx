@@ -7,7 +7,7 @@ const Projects = () => {
     image: "/src/assets/listify-project.png",
     technologies: ["Django", "Python", "HTML/CSS", "JavaScript", "SQLite"],
     features: ["User Login & Authentication", "CRUD Task Functionality", "Task Categorization", "Status Filtering", "Pagination", "Deadline Reminders (In Progress)"],
-    liveUrl: "#",
+    liveUrl: "https://listify-jsjp.onrender.com",
     githubUrl: "https://github.com/23CSBS271",
     status: "Completed",
     type: "Web Application"
@@ -17,7 +17,7 @@ const Projects = () => {
     image: "/src/assets/trip-com-ui.png",
     technologies: ["Figma", "UI/UX Design", "Prototyping"],
     features: ["Modern Interface Design", "Seamless Booking Flow", "Vibrant User Experience", "Mobile-First Approach", "Interactive Prototyping"],
-    figmaUrl: "#",
+    figmaUrl: "https://www.figma.com/design/6o0CBPFIWyGzpGgSq347ok/trip.com?node-id=0-1&t=8XnRHUNzdO0IQUMP-1",
     status: "Completed",
     type: "UI/UX Design"
   }, {
@@ -116,15 +116,24 @@ const Projects = () => {
                   {/* Action Buttons */}
                   <div className="flex gap-3 pt-4">
                     {project.liveUrl && <Button variant="portfolio" size="sm" asChild>
-                        
+                        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                         <ExternalLink className="w-4 h-4" />
+                          Live Demo
+                        </a>  
                       </Button>}
                     
                     {project.githubUrl && <Button variant="portfolioOutline" size="sm" asChild>
-                        
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                          <Github className="w-4 h-4" />
+                           GitHub
+                        </a>
                       </Button>}
                     
                     {project.figmaUrl && <Button variant="portfolioOutline" size="sm" asChild>
-                        
+                        <a href={project.figmaUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                           <Figma className="w-4 h-4" />
+                            Figma
+                        </a>
                       </Button>}
                   </div>
                 </div>

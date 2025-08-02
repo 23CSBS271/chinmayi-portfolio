@@ -30,11 +30,11 @@ const Skills = () => {
 
   const proficiencyLevels = [
     { skill: "HTML/CSS", level: 85 },
-    { skill: "JavaScript", level: 70 },
+    { skill: "Canva", level: 85 },
     { skill: "Python", level: 75 },
     { skill: "Django", level: 70 },
     { skill: "Figma", level: 80 },
-    { skill: "SQL", level: 65 },
+    { skill: "SQL", level: 50 },
   ];
 
   return (

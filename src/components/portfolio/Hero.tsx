@@ -71,7 +71,7 @@ const Hero = () => {
                   <Mail className="w-5 h-5 text-portfolio-glow" />
                 </a>
                 <a 
-                  href="https://linkedin.com/in/chinmayi-b" 
+                  href="https://www.linkedin.com/in/chinmayi-b-75ab1b2aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 rounded-full bg-portfolio-surface border border-portfolio-glow/20 hover:border-portfolio-glow/50 transition-all duration-300 hover:scale-110 glow-effect"

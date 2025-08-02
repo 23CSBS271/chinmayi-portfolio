@@ -75,7 +75,7 @@ const Contact = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "linkedin.com/in/chinmayi-b",
-      href: "https://linkedin.com/in/chinmayi-b",
+      href: "https://www.linkedin.com/in/chinmayi-b-75ab1b2aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       color: "portfolio-accent"
     },
     {
@@ -296,7 +296,7 @@ const Contact = () => {
                 size="lg"
                 asChild
               >
-                <a href="https://linkedin.com/in/chinmayi-b" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/chinmayi-b-75ab1b2aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="w-5 h-5 mr-2" />
                   Connect on LinkedIn
                 </a>

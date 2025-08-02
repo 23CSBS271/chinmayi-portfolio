@@ -25,13 +25,13 @@ const Footer = () => {
                 <a href="mailto:chinmayib209@gmail.com" className="w-10 h-10 bg-portfolio-surface rounded-lg flex items-center justify-center border border-portfolio-glow/20 hover:border-portfolio-glow/50 transition-all duration-300 hover:scale-110">
                   <span className="text-portfolio-glow">📧</span>
                 </a>
-                <a href="https://linkedin.com/in/chinmayi-b" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-portfolio-surface rounded-lg flex items-center justify-center border border-portfolio-glow/20 hover:border-portfolio-glow/50 transition-all duration-300 hover:scale-110">
+                <a href="https://www.linkedin.com/in/chinmayi-b-75ab1b2aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-portfolio-surface rounded-lg flex items-center justify-center border border-portfolio-glow/20 hover:border-portfolio-glow/50 transition-all duration-300 hover:scale-110">
                   <span className="text-portfolio-glow">💼</span>
                 </a>
                 <a href="https://github.com/23CSBS271" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-portfolio-surface rounded-lg flex items-center justify-center border border-portfolio-glow/20 hover:border-portfolio-glow/50 transition-all duration-300 hover:scale-110">
                   <span className="text-portfolio-glow">💻</span>
                 </a>
-                <a href="https://instagram.com/chinmayi_gowda" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-portfolio-surface rounded-lg flex items-center justify-center border border-portfolio-glow/20 hover:border-portfolio-glow/50 transition-all duration-300 hover:scale-110">
+                <a href="https://www.instagram.com/__chinmayi_gowda_/profilecard/?igsh=eWZkN3F2YmV5MHBm" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-portfolio-surface rounded-lg flex items-center justify-center border border-portfolio-glow/20 hover:border-portfolio-glow/50 transition-all duration-300 hover:scale-110">
                   <span className="text-portfolio-glow">📷</span>
                 </a>
               </div>

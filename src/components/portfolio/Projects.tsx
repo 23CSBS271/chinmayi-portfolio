@@ -7,6 +7,8 @@ const Projects = () => {
     image: "/src/assets/listify-project.png",
     technologies: ["Django", "Python", "HTML/CSS", "JavaScript", "SQLite"],
     features: ["User Login & Authentication", "CRUD Task Functionality", "Task Categorization", "Status Filtering", "Pagination", "Deadline Reminders (In Progress)"],
+    liveUrl: "https://listify-jsjp.onrender.com",
+    githubUrl: "https://github.com/23CSBS271/listify",
     liveUrl: "#",
     githubUrl: "https://github.com/23CSBS271",
     status: "Completed",

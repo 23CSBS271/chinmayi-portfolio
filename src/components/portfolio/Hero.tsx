@@ -87,7 +87,7 @@ const Hero = () => {
                   <Github className="w-5 h-5 text-portfolio-glow" />
                 </a>
                 <a 
-                  href="https://instagram.com/chinmayi_gowda" 
+                  href="https://www.instagram.com/__chinmayi_gowda_/profilecard/?igsh=eWZkN3F2YmV5MHBm"
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 rounded-full bg-portfolio-surface border border-portfolio-glow/20 hover:border-portfolio-glow/50 transition-all duration-300 hover:scale-110 glow-effect"

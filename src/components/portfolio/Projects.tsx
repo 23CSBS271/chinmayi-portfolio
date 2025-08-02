@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github, Figma, Calendar, View } from "lucide-react";
+import { ExternalLink, Github, Figma, Calendar } from "lucide-react";
 const Projects = () => {
   const projects = [{
     title: "Listify - Online To-Do List App",
@@ -26,7 +26,7 @@ const Projects = () => {
     image: "/src/assets/beat-the-clock-poster.png",
     technologies: ["Canva", "Figma", "Graphic Design"],
     features: ["Creative Visual Design", "Modern Typography", "Engaging Graphics", "Brand Consistency", "Print-Ready Format"],
-    View: "https://i.postimg.cc/XvSS5dqZ/beattheclock-invitation.png", 
+    liveUrl: "https://i.postimg.cc/XvSS5dqZ/beattheclock-invitation.png", 
     status: "Completed",
     type: "Graphic Design"
   }, {
@@ -35,7 +35,7 @@ const Projects = () => {
     image: "/src/assets/deja-view-poster.png",
     technologies: ["Canva", "Figma", "Creative Design"],
     features: ["Artistic Elements", "Professional Layout", "Visual Communication", "Color Psychology", "Event Branding"],
-    View: "https://i.postimg.cc/YS9nhSf4/Dejaview-invitation.png", 
+    liveUrl: "https://i.postimg.cc/YS9nhSf4/Dejaview-invitation.png", 
     status: "Completed",
     type: "Graphic Design"
   }];

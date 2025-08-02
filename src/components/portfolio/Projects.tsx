@@ -14,7 +14,7 @@ const Projects = () => {
   }, {
     title: "Trip.com Travel App UI",
     description: "Modern travel application interface designed in Figma, focusing on seamless booking experience and vibrant user journeys with emphasis on user flow and aesthetics.",
-    image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?w=600&h=400&fit=crop",
+    image: "/src/assets/trip-com-ui.png",
     technologies: ["Figma", "UI/UX Design", "Prototyping"],
     features: ["Modern Interface Design", "Seamless Booking Flow", "Vibrant User Experience", "Mobile-First Approach", "Interactive Prototyping"],
     figmaUrl: "#",

@@ -78,7 +78,7 @@ const Services = () => {
 
                   {/* Features */}
                   <div className="mb-6">
-                    <h4 className="font-semibold text-foreground mb-3">What I Offer:</h4>
+                    <h4 className="font-semibold text-foreground mb-3">What I Know:</h4>
                     <div className="space-y-2">
                       {service.features.map(feature => <div key={feature} className="flex items-center gap-2">
                           <ArrowRight className="w-4 h-4 text-portfolio-glow flex-shrink-0" />

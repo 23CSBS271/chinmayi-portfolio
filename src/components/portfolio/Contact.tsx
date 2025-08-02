@@ -88,8 +88,8 @@ const Contact = () => {
     {
       icon: Instagram,
       label: "Instagram",
-      value: "@chinmayi_gowda",
-      href: "https://instagram.com/chinmayi_gowda",
+      value: "@__chinmayi_gowda_",
+      href: "https://www.instagram.com/__chinmayi_gowda_/profilecard/?igsh=eWZkN3F2YmV5MHBm",
       color: "portfolio-accent"
     }
   ];

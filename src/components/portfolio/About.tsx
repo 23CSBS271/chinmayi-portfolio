@@ -27,7 +27,7 @@ const About = () => {
                 </p>
                 
                 <p className="text-lg leading-relaxed">
-                  What drives me is the curiosity to learn, create, and contribute meaningfully—whether 
+                  What drives me is the curiosity to learn, create, and contribute meaningfully whether 
                   it's through collaborative projects, exploring AI tools, or developing user-focused solutions. 
                   I believe in continuous growth, staying adaptable, and building with purpose.
                 </p>
@@ -37,10 +37,6 @@ const About = () => {
                 <div className="flex items-center gap-2 text-portfolio-neutral">
                   <MapPin className="w-5 h-5 text-portfolio-glow" />
                   <span>Mandya, Karnataka</span>
-                </div>
-                <div className="flex items-center gap-2 text-portfolio-neutral">
-                  <Calendar className="w-5 h-5 text-portfolio-glow" />
-                  <span>Available for Projects</span>
                 </div>
               </div>
             </div>

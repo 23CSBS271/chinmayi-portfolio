@@ -29,7 +29,7 @@ const Projects = () => {
     status: "Completed",
     type: "Graphic Design"
   }, {
-    title: "Déjà View - Event Poster",
+    title: "Déjà View - Event Invitation Card",
     description: "Sophisticated poster design for club event featuring artistic elements and professional layout, demonstrating advanced design principles and visual communication skills.",
     image: "/src/assets/deja-view-poster.png",
     technologies: ["Canva", "Figma", "Creative Design"],

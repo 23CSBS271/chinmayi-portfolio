@@ -4,7 +4,7 @@ const Projects = () => {
   const projects = [{
     title: "Listify - Online To-Do List App",
     description: "A comprehensive task management application built with Django and Python, featuring user authentication, CRUD operations, task categorization, and deadline reminders.",
-    image: "/lovable-uploads/ed68f1de-19f8-4d8a-810d-7e72848dbc91.png",
+    image: "/src/assets/listify-project.png",
     technologies: ["Django", "Python", "HTML/CSS", "JavaScript", "SQLite"],
     features: ["User Login & Authentication", "CRUD Task Functionality", "Task Categorization", "Status Filtering", "Pagination", "Deadline Reminders (In Progress)"],
     liveUrl: "#",
@@ -23,7 +23,7 @@ const Projects = () => {
   }, {
     title: "Beat the Clock - Event Poster",
     description: "Eye-catching event poster design for Ascend Club activities, showcasing creative visual design skills using Canva and Figma with modern typography and engaging graphics.",
-    image: "https://images.unsplash.com/photo-1558618047-71c0c3d54a28?w=600&h=400&fit=crop",
+    image: "/src/assets/beat-the-clock-poster.png",
     technologies: ["Canva", "Figma", "Graphic Design"],
     features: ["Creative Visual Design", "Modern Typography", "Engaging Graphics", "Brand Consistency", "Print-Ready Format"],
     status: "Completed",
@@ -31,7 +31,7 @@ const Projects = () => {
   }, {
     title: "Déjà View - Event Poster",
     description: "Sophisticated poster design for club event featuring artistic elements and professional layout, demonstrating advanced design principles and visual communication skills.",
-    image: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&h=400&fit=crop",
+    image: "/src/assets/deja-view-poster.png",
     technologies: ["Canva", "Figma", "Creative Design"],
     features: ["Artistic Elements", "Professional Layout", "Visual Communication", "Color Psychology", "Event Branding"],
     status: "Completed",

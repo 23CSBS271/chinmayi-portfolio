@@ -18,7 +18,7 @@ const Skills = () => {
       icon: Database,
       title: "Database & Backend",
       color: "portfolio-glow",
-      skills: ["SQL", "Django ORM", "RESTful APIs", "Database Design"]
+      skills: ["SQL", "Django Framework", "RESTful APIs", "Database Design"]
     },
     {
       icon: Palette,
@@ -110,7 +110,7 @@ const Skills = () => {
           <div className="mt-16 text-center fade-in" style={{ animationDelay: '1.2s' }}>
             <h3 className="text-xl font-bold mb-6 text-portfolio-accent">Currently Learning</h3>
             <div className="flex flex-wrap gap-3 justify-center max-w-2xl mx-auto">
-              {["React", "Node.js", "TypeScript", "MongoDB", "AWS", "Docker"].map((tech) => (
+              {["React", "Node.js", "TypeScript", "MongoDB"].map((tech) => (
                 <span 
                   key={tech}
                   className="px-4 py-2 bg-portfolio-accent/20 text-portfolio-accent rounded-lg border border-portfolio-accent/30 font-medium hover:bg-portfolio-accent/30 transition-colors duration-300"

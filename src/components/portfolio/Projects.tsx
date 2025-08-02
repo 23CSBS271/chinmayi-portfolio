@@ -17,7 +17,7 @@ const Projects = () => {
     image: "/src/assets/trip-com-ui.png",
     technologies: ["Figma", "UI/UX Design", "Prototyping"],
     features: ["Modern Interface Design", "Seamless Booking Flow", "Vibrant User Experience", "Mobile-First Approach", "Interactive Prototyping"],
-    figmaUrl: "#",
+    figmaUrl: "https://www.figma.com/file/6o0CBPFIWyGzpGgSq347ok/Untitled?type=design&node-id=0-1&mode=design&t=TR7DboqttwNyz3O7-0",
     status: "Completed",
     type: "UI/UX Design"
   }, {

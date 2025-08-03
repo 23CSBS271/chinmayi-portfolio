@@ -1,10 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Figma, Calendar } from "lucide-react";
+import listifyProject from "@/assets/listify-project.png";
+import tripComUI from "@/assets/trip-com-ui.png";
+import beatClockPoster from "@/assets/beat-the-clock-poster.png";
+import dejaViewPoster from "@/assets/deja-view-poster.png";
 const Projects = () => {
   const projects = [{
     title: "Listify - Online To-Do List App",
     description: "A comprehensive task management application built with Django and Python, featuring user authentication, CRUD operations, task categorization, and deadline reminders.",
-    image: "/src/assets/listify-project.png",
+    image: listifyProject,
     technologies: ["Django", "Python", "HTML/CSS", "JavaScript", "SQLite"],
     features: ["User Login & Authentication", "CRUD Task Functionality", "Task Categorization", "Status Filtering", "Pagination", "Deadline Reminders (In Progress)"],
     liveUrl: "https://listify-jsjp.onrender.com",
@@ -14,7 +18,7 @@ const Projects = () => {
   }, {
     title: "Trip.com Travel App UI",
     description: "Modern travel application interface designed in Figma, focusing on seamless booking experience and vibrant user journeys with emphasis on user flow and aesthetics.",
-    image: "/src/assets/trip-com-ui.png",
+    image: tripComUI,
     technologies: ["Figma", "UI/UX Design", "Prototyping"],
     features: ["Modern Interface Design", "Seamless Booking Flow", "Vibrant User Experience", "Mobile-First Approach", "Interactive Prototyping"],
     figmaUrl: "https://www.figma.com/file/6o0CBPFIWyGzpGgSq347ok/Untitled?type=design&node-id=0-1&mode=design&t=TR7DboqttwNyz3O7-0",
@@ -23,7 +27,7 @@ const Projects = () => {
   }, {
     title: "Beat the Clock - Event Invitation Card",
     description: "Eye-catching event poster design for Ascend Club activities, showcasing creative visual design skills using Canva and Figma with modern typography and engaging graphics.",
-    image: "/src/assets/beat-the-clock-poster.png",
+    image: beatClockPoster,
     technologies: ["Canva", "Figma", "Graphic Design"],
     features: ["Creative Visual Design", "Modern Typography", "Engaging Graphics", "Brand Consistency", "Print-Ready Format"],
     liveUrl: "https://i.postimg.cc/XvSS5dqZ/beattheclock-invitation.png", 
@@ -32,7 +36,7 @@ const Projects = () => {
   }, {
     title: "Déjà View - Event Invitation Card",
     description: "Sophisticated poster design for club event featuring artistic elements and professional layout, demonstrating advanced design principles and visual communication skills.",
-    image: "/src/assets/deja-view-poster.png",
+    image: dejaViewPoster,
     technologies: ["Canva", "Figma", "Creative Design"],
     features: ["Artistic Elements", "Professional Layout", "Visual Communication", "Color Psychology", "Event Branding"],
     liveUrl: "https://i.postimg.cc/YS9nhSf4/Dejaview-invitation.png", 

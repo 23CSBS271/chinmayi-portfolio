@@ -24,7 +24,7 @@ const Hero = () => {
             {/* Text Content */}
             <div className="text-left space-y-8 fade-in">
               <div className="space-y-4">
-                <h1 className="text-5xl lg:text-7xl font-bold">
+                <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-foreground">
                   <span className="block">Chinmayi</span>
                   <span className="block gradient-text">B</span>
                 </h1>

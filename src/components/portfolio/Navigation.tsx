@@ -74,12 +74,9 @@ const Navigation = () => {
         {/* Mobile Navigation */}
         {isOpen && <div className="md:hidden absolute top-16 left-0 right-0 bg-background/95 backdrop-blur-lg border-b border-portfolio-glow/10 py-4">
             <div className="flex flex-col space-y-4 px-6">
-              {navItems.map(item => <button key={item.id} onClick={() => scrollToSection(item.id)} className={`text-left py-2 text-sm font-medium transition-colors duration-300 hover:text-portfolio-glow ${activeSection === item.id ? 'text-portfolio-glow' : 'text-portfolio-neutral'}`}>
+               {navItems.map(item => <button key={item.id} onClick={() => scrollToSection(item.id)} className={`text-left py-2 text-sm font-medium transition-colors duration-300 hover:text-portfolio-glow ${activeSection === item.id ? 'text-portfolio-glow' : 'text-portfolio-neutral'}`}>
                   {item.label}
                 </button>)}
-              <Button variant="portfolio" size="sm" onClick={() => scrollToSection('contact')} className="w-fit">
-                Hire Me
-              </Button>
             </div>
           </div>}
       </div>

@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute bottom-32 right-16 w-24 h-24 border border-portfolio-accent/20 rotate-45 floating-animation" style={{ animationDelay: '2s' }}></div>
       <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-portfolio-glow/10 rounded-lg floating-animation" style={{ animationDelay: '4s' }}></div>
 
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-6 relative z-10 pt-20 md:pt-0">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             

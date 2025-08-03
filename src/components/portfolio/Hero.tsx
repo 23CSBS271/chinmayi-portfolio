@@ -25,7 +25,7 @@ const Hero = () => {
             <div className="text-left space-y-8 fade-in">
               <div className="space-y-4">
                 <h1 className="text-6xl sm:text-6xl lg:text-7xl font-bold">
-                  <span className="block text-white font-extrabold shadow-lg" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>Chinmayi</span>
+                  <span className="block text-white font-black bg-black/20 px-2 py-1 rounded-lg backdrop-blur-sm" style={{ textShadow: '3px 3px 6px rgba(0,0,0,1), -1px -1px 2px rgba(0,0,0,1)' }}>Chinmayi</span>
                   <span className="block gradient-text">B</span>
                 </h1>
                 <p className="text-xl lg:text-2xl text-portfolio-neutral font-light">

@@ -37,10 +37,10 @@ const Contact = () => {
         'service_elp57hd',     // Service ID
         'template_hj2k51h',    // Template ID
         {
-          user_name: formData.name,
-          user_email: formData.email,
-          user_subject: formData.subject,
-          user_message: formData.message,
+          from_name: formData.name,
+          from_email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
           to_name: 'Chinmayi',
           reply_to: formData.email
         }
